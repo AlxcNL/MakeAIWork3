@@ -8,6 +8,7 @@ Pillow
 pandas 
 py-cpuinfo 
 pyopengl
+findspark
 pyspark
 pytab 
 pytorch

@@ -18,6 +18,7 @@ function installWithConda {
     conda install --yes -c conda-forge \
       beautifulsoup4 \
       flask \
+      findspark \
       jupyter_core \
       jupyterlab \
       keras \
