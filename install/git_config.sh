@@ -11,10 +11,13 @@ fi
 
 gitUser="${argument_values[0]}"
 gitEmail="${argument_values[1]}"
-repoURL="https://github.com/${gitUser}/MakeAIWork3"
+repoURL="git@github.com:${gitUser}/MakeAIWork3.git"
 
 echo "Initialize git"
 git init
+
+echo "Stage README.md"
+git add README.md
 
 printf "Configure with username %s and email %s\n" ${gitUser} ${gitEmail}
 git config user.name ${gitUser}
@@ -22,6 +25,9 @@ git config user.email ${gitEmail}
 
 echo "Disable rebase pull policy"
 git config pull.rebase false
+
+echo "Create main branch"
+git branch -M main
 
 printf "Add upstream %s\n" ${repoURL}
 git remote add origin ${repoURL}
