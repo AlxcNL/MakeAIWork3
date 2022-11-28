@@ -1,0 +1,9 @@
+First of all marginal probabilities are eyeballed.
+This is simply a matter of drawing the distribution of each column.
+- Determine the range from the min and the max of a column
+- Divide it into say 64 bins
+- Create an array of 64 floats
+- Count the relative frequencies  in that array
+- Visualize the array by printing a numer of MMM proportional to each frequency (so the graph is "rotated" 90 degrees)
+
+
