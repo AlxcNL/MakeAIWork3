@@ -109,6 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+miw3
 
 # Spyder project settings
 .spyderproject
