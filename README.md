@@ -74,12 +74,19 @@ Watch [instruction videos at YouTube](https://youtube.com/playlist?list=PLf5zREw
 
 <li>
 
-Create new virtual Python environment 
+(Optional) Create new virtual Python environment 
 ```sh
 install/create_virtual_env.sh
 ```
 
 </li>
+
+<li>
+
+(Optional) Copy virtual environment from MakeAIWork2 (Windows)
+```sh
+ cp -r ../MakeAIWork2/env .
+ ```
 
 <li>
 

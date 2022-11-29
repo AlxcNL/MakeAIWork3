@@ -30,7 +30,6 @@ function installWithConda {
       py-cpuinfo \
       pyopengl \
       pytables  \
-      pytorch \
       scikit-image \
       scikit-learn \
       scipy \

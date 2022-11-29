@@ -10,8 +10,7 @@ py-cpuinfo
 pyopengl
 findspark
 pyspark
-pytab 
-pytorch
+pytab
 scikit-image 
 scikit-learn 
 scipy 
