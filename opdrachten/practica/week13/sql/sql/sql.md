@@ -1,10 +1,16 @@
-# Queries vanuit de Command line
+# Practicum SQL - SQLite
+
+## Datamodel Chinook
+
+<img src="datamodel.png"/>
+
+## Setup
 
 <ol>
 
 <li>
 
-**Install [Sqlite Browser](https://sqlitebrowser.org/dl/)** 
+**Install [SQLite Browser](https://sqlitebrowser.org/dl/)** 
 
 </li>
 
@@ -22,7 +28,7 @@
 
 <li>
 
-**Execute SQK**
+**Execute SQL**
 ```sql
 select * 
 from Artist 
@@ -33,7 +39,7 @@ limit 10;
 
 </ol>
 
-### Query Practice
+## Practice queries
 
 <ol>
 
