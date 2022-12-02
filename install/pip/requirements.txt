@@ -19,7 +19,6 @@ seaborn
 sentence-transformers
 sklearn
 spacy
-tensorflow
 tensorboard-plugin-wit
 tensorflow-estimator
 tensorflow_addons
