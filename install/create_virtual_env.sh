@@ -12,7 +12,7 @@ function createVirtualEnv {
         python -m venv ${virtualEnvName} 
     fi	
 
-    printf "Activate virtual environment %s\n" ${virtualEnvName}
+    printf "Activate virtual environment %s\n\n" ${virtualEnvName}
     source ${virtualEnvName}/Scripts/activate
 
     # Make sure ~/.bashrc exists

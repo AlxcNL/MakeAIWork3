@@ -1,6 +1,9 @@
-beautifulsoup4 
+beautifulsoup4
+cartopy 
 jupyter_core 
 jupyterlab 
+geopandas
+geoplot
 keras 
 Keras-Preprocessing 
 matplotlib
@@ -13,7 +16,8 @@ pyspark
 pytab
 scikit-image 
 scikit-learn 
-scipy 
+scipy
+scrapy 
 seaborn 
 selenium 
 statsmodels 

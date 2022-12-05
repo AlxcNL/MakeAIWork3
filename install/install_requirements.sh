@@ -17,8 +17,11 @@ function installWithConda {
   else
     conda install --yes -c conda-forge \
       beautifulsoup4 \
+      cartopy \
       flask \
       findspark \
+      geopandas \
+      geoplot \
       jupyter_core \
       jupyterlab \
       keras \
@@ -36,6 +39,7 @@ function installWithConda {
       seaborn \
       selenium \
       statsmodels \
+      scrapy \
       sympy
   fi
 
