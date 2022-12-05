@@ -8,7 +8,6 @@ matplotlib
 matplotlib-venn
 numexpr
 numpy
-numpy
 pandas
 ptpython
 pyarrow
