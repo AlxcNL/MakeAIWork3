@@ -134,4 +134,4 @@ solutions/
 cursisten/
 .idea
 
-opdrachten/practica/*/.ipynb_checkpoints
+# opdrachten/practica/*/.ipynb_checkpoints
