@@ -12,6 +12,7 @@ pandas
 ptpython
 pyarrow
 pylib
+pymongo
 python-spark-reader-library
 scipy
 seaborn
