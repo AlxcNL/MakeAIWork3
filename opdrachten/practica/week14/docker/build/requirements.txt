@@ -1,0 +1,4 @@
+pandas
+ptpython
+pymongo
+scrapy
