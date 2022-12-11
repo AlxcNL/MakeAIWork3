@@ -8,7 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -133,5 +132,3 @@ solutions/
 .vscode/launch.json
 cursisten/
 .idea
-
-# opdrachten/practica/*/.ipynb_checkpoints

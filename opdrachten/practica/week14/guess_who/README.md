@@ -31,13 +31,13 @@ chmod +x ./install_requirements.sh
 
 **Images in <i>data/pics</i>**  
 - <i>guess_who.jpg</i> matrix van alle personen
-- <i>alex.jpg</i>; uitgeknipt plaatje van een persoon 
+- <i>alex.jpg, alfred.jpg en tom.jpg</i>; uitgeknipte images
 </li><br>
 
 <li>
 
 **Scripts in <i>src/build</i>** 
-- <i>image_cropper.py</i>; Python class voor het uitknippen van portretfoto's
+- <i>image_cropper.py</i>; Python class voor het <i>croppen</i> van images
 - <i>app.py</i>; deze bevat de <u>main functie</u> waarmee alle <u>build</u> acties worden uitgevoerd
 </li>
 
@@ -45,7 +45,7 @@ chmod +x ./install_requirements.sh
 
 #### Gevraagd
 
-<p>Vul de <u>methode split</u> aan zodat voor elke persoon een portretfoto wordt uitgeknipt en opgeslagen
+<p>Vul de methode <u>extractPortraits(imageCropper)</u> in app.py aan zodat voor elke persoon een portretfoto wordt uitgeknipt en opgeslagen
 
 De operaties van ImageCropper worden aangestuurd vanuit <u>main() in app.py</u> 
 ```bash
