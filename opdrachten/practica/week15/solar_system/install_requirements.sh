@@ -8,13 +8,13 @@
   else
     conda update -n base -c conda-forge conda
     conda install --yes -c conda-forge \
+      neo4j \
+      neo4j-driver \
       opencv \
       pathlib \
       pymongo \
-      pydata \
+      py2neo \
       pyspark \
       scrapy
 
   fi
-
-

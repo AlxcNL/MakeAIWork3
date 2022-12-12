@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-from py2neo import Node
+from py2neo import Node, Graph
+
+graph = Graph("bolt://localhost:7687", auth=("neo4j", "test"))
 
 nicole = Node("Person", name="Nicole", age=24)
 drew = Node("Person", name="Drew", age=20)

@@ -3,6 +3,5 @@ opencv-python
 pathlib
 packaging
 py2neo
-pydata
 pyspark
 pymongo
