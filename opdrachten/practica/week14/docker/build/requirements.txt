@@ -1,4 +1,0 @@
-pandas
-ptpython
-pymongo
-scrapy
