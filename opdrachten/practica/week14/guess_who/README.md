@@ -31,7 +31,7 @@ chmod +x ./install_requirements.sh
 
 **Images in <i>data/pics</i>**  
 - <i>guess_who.jpg</i> matrix van alle personen
-- <i>alex.jpg, alfred.jpg en tom.jpg</i>; uitgeknipte images
+- <i>uitgeknipte images: alex.jpg, alfred.jpg en tom.jpg</i>
 </li><br>
 
 <li>
@@ -45,7 +45,7 @@ chmod +x ./install_requirements.sh
 
 #### Gevraagd
 
-<p>Vul de methode <u>extractPortraits(imageCropper)</u> in app.py aan zodat voor elke persoon een portretfoto wordt uitgeknipt en opgeslagen
+<p>Vul de methode <u>extractPortraits(imageCropper)</u> in app.py aan zodat voor elke persoon een portretfoto wordt uitgeknipt en opgeslagen. Gebruik daarbij gebruik van een loop en/of list comprehension. 
 
 De operaties van ImageCropper worden aangestuurd vanuit <u>main() in app.py</u> 
 ```bash
