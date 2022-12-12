@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-virtualEnvName="miw3"
+virtualEnvName="guess_who"
 
 function createVirtualEnv {    
     if [[ -d "" ]]

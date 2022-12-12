@@ -136,3 +136,7 @@ opdrachten/practica/week13/sql/geo/ref-nuts-2021-01m
 .vscode/extensions.json
 opdrachten/practica/week14/result.json
 opdrachten/practica/week14/moons_mars.html
+opdrachten/practica/data/neo4j/data/databases
+opdrachten/practica/data/neo4j/data/server_id
+opdrachten/practica/data/neo4j/data/transactions/neo4j/*.0
+opdrachten/practica/data/neo4j/data/transactions/system/

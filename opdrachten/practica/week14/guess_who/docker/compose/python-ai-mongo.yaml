@@ -10,3 +10,5 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: student
       MONGO_INITDB_ROOT_PASSWORD: miw3
+    volumes:
+        - ${HOSTPATH_DATA}/:/app

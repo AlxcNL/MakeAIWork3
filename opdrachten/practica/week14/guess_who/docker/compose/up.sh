@@ -6,7 +6,7 @@ mode=" -d"
 if [ $# -eq 0 ]
   then
     echo "No supplied"
-    exit -1
+    exit 1
 fi
 
 composeFile="$1"
