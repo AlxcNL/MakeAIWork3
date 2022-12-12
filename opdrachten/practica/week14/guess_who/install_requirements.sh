@@ -11,7 +11,6 @@
       opencv \
       pathlib \
       pymongo \
-      pydata \
       pyspark \
       scrapy
 

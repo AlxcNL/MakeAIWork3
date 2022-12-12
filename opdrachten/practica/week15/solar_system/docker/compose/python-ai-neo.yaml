@@ -2,15 +2,14 @@ version: '3.7'
 
 services:
 
-  mongo:
+  neo:
     image: neo4j
     restart: always
     ports:
       - 7474:7474 
       - 7687:7687
     environment:
-      MONGO_INITDB_ROOT_USERNAME: neo4j
-      MONGO_INITDB_ROOT_PASSWORD: test
+      - NEO4J_AUTH=neo4j/test
     volumes:
       - $PWD/neo4j/data:/data
       - $PWD/neo4j/logs:/logs

@@ -20,6 +20,8 @@ esac
 # Container
 
 containerName="python-ai-neo"
+composePath="docker/compose"
+composefile="${composePath}/python-ai-neo.yaml"
 
 cmd="${prefix}docker/compose/up.sh ${composefile}"
 

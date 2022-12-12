@@ -11,7 +11,6 @@ docker ps -a -q | xargs docker rm
 
 echo "Remove all images"
 docker images -a -q | xargs docker rmi -f
-docker image prune -a
 
 echo "Remove all networks"
 docker network prune
