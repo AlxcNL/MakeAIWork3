@@ -19,13 +19,10 @@ fi
 
 hostdirHome="${PWD}"
 hostdirNotebooks="${hostdirHome}/notebooks"
-hostdirPics="${hostdirHome}/pics"
-hostdirProjects="${hostdirHome}/projects"
-hostdirData="${hostdirHome}/db"
+hostdirData="${hostdirHome}/neo4j/data "
 
 function makeWindowsProof {
     hostdirNotebooks=$(cygpath -w -p ${hostdirNotebooks})
-    hostdirProjects=$(cygpath -w -p ${hostdirProjects})
     hostdirPics=$(cygpath -w -p ${hostdirPics})
     hostdirData=$(cygpath -w -p ${hostdirData})
     prefix="winpty "
@@ -44,8 +41,6 @@ case "${os}" in
 esac
 
 export HOSTPATH_NOTEBOOKS=${hostdirNotebooks}
-export HOSTPATH_PICS=${hostdirPics}
-export HOSTPATH_PROJECT=${hostdirProjects}
 export HOSTPATH_DATA=${hostdirData}
 
 # Container
@@ -55,9 +50,7 @@ mode="${argumentValues[0]}"
 containerName="python-ai-${mode}"
 containerHome="/home/student"
 containerdirNotebooks="${containerHome}/notebooks"
-containerdirProjects="${containerHome}/projects"
-containerdirPics="${containerHome}/pics"
-containerdirData="${containerHome}/db"
+containerdirData="${containerHome}/data"
 composePath="docker/compose"
 graphicsParams="-v \"/tmp/.X11-unix:/tmp/.X11-unix\" -e \"DISPLAY=${DISPLAY}\" --net=host"
 

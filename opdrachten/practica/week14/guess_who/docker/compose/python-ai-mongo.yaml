@@ -8,7 +8,8 @@ services:
     ports:
       - 27017:27017
     environment:
-      MONGO_INITDB_ROOT_USERNAME: student
-      MONGO_INITDB_ROOT_PASSWORD: miw3
+      - MONGO_INITDB_ROOT_USERNAME=student
+      - MONGO_INITDB_ROOT_PASSWORD=miw3
     volumes:
-        - ${HOSTPATH_DATA}/:/app
+      - $PWD/mongodb:/app
+      - $PWD/mongodb/logs:/var/log/mongodb

@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+
+  neo:
+    image: neo4j
+    restart: always
+    ports:
+      - 7474:7474 
+      - 7687:7687
+    environment:
+      - NEO4J_AUTH=neo4j/test
+    volumes:
+      - $PWD/neo4j/data:/data
+      - $PWD/neo4j/logs:/logs
+      - $PWD/neo4j/import:/var/lib/neo4j/import
+      - $PWD/neo4j/plugins:/plugins
