@@ -10,8 +10,8 @@
     conda install --yes -c conda-forge \
       opencv \
       pathlib \
+      py2neo \
       pymongo \
-      pydata \
       pyspark \
       scrapy
 

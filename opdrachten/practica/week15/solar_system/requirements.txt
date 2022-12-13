@@ -1,5 +1,4 @@
 monotonic
-opencv-python
 pathlib
 packaging
 py2neo
