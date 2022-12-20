@@ -10,16 +10,3 @@ spark = SparkSession.builder.getOrCreate()
 # spark = sparkContext.getOrCreate()
 
 # logging.INFO("Create Spark Dataframe of persons")
-personDf = spark.createDataFrame(
-    [
-        ( "Alex", 0, 0 ),
-        ( "Alfred", 0, 1 ),
-        ( "Anita", 0, 2 ),
-        ( "Anne", 0, 3 ),
-        ( "Bernard", 0, 4 ),
-        ( "Bill", 0, 5 ),
-        ( "Charles", 0, 6 ),
-        ( "Claire", 0, 7)
-    ],
-    schema="Name string, Row int, Col int"
-)
