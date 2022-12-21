@@ -4,7 +4,7 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from scrapy.loader.processors import MapCompose, TakeFirst
+from itemloaders.processors import MapCompose, TakeFirst
 from w3lib.html import remove_tags
 
 def remove_whitespace(value):
@@ -15,5 +15,4 @@ class CharItem(scrapy.Item):
     char_text = scrapy.Field(
         input_processor = MapCompose(remove_tags, remove_whitespace),
         output_processor = TakeFirst()
-
     )
