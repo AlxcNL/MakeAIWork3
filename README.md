@@ -83,9 +83,9 @@ install/create_virtual_env.sh
 
 <li>
 
-(Optional) Copy virtual environment from MakeAIWork2 (Windows)
+(Optional) Copy virtual environment from MakeAIWork3 (Windows)
 ```sh
- cp -r ../MakeAIWork2/env .
+ cp -r ../MakeAIWork3/env .
  ```
 
 <li>
