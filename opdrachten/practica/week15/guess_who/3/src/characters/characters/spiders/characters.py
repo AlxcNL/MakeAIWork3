@@ -1,6 +1,6 @@
 import scrapy
 
-import items
+from characters
 from scrapy.loader import ItemLoader
 import logging
 
