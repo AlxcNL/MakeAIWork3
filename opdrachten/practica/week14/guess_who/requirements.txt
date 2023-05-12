@@ -1,5 +1,0 @@
-opencv-python
-pathlib
-pydata
-pyspark
-pymongo

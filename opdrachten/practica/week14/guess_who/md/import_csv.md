@@ -1,2 +1,0 @@
-# Start and connect MongoDB
-
