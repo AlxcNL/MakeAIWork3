@@ -148,3 +148,6 @@ opdrachten/practica/pics/2750
 examples
 opdrachten/practica/week13/numpy/numpy_opdracht2_solutions.ipynb
 projects/apple_disease_classification/data/
+opdrachten/practica/data/eurosat/
+opdrachten/practica/data/faces/
+.vscode/settings.json
